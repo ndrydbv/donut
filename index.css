@@ -1,0 +1,51 @@
+html,
+body,
+.container {
+  overflow: hidden;
+  background-color: black;
+  height: 100%;
+
+  font-family: Helvetica;
+}
+
+#d {
+  font-size: 1.3em;
+}
+
+a {
+  color: grey;
+  font-size: 0.6em;
+}
+
+.link-wrap {
+  padding-top: 200px;
+  position: absolute;
+  bottom: 0px
+}
+
+.container {
+  color: grey;
+  font-size: 1.7em;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: left;
+}
+p.label {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+p.value {
+  display: inline;
+  float: right;
+  margin: 0;
+}
+.slider {
+  margin: 0 10px 0 10px;
+}
